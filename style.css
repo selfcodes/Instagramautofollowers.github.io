@@ -55,7 +55,8 @@ body {
 }
 .parsk{
     background: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .cen {
     justify-content: center;
@@ -80,7 +81,7 @@ body {
     border-radius: 20px;
 }
 .headser {
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     background: transparent;
     background-color: white;
@@ -148,4 +149,20 @@ b {
     border-bottom-color: #f10000;
     border-top-color: rgb(255, 169, 8);
     border: 2px dashed;
+}
+.cont {
+    background: transparent;
+    border: none;
+    height: auto;
+    background-color: white;
+    padding: 7px;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+}
+.cont p {
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
