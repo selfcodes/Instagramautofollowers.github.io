@@ -13,6 +13,7 @@ body {
     display: flexbox;
     justify-content: center;
     align-items: center;
+    padding: 9px;
 }
 .sknav {
     text-align: center;
@@ -26,6 +27,8 @@ body {
     border-top-color: transparent;
     border-right-color: black;
     border-left-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     word-spacing: 7px;
 }
 .sknav a {
@@ -164,5 +167,5 @@ b {
 }
 .accordion-body strong {
     background: transparent;
-    
+
 }
