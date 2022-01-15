@@ -8,7 +8,11 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 body {
+    min-height: 100vh;
     text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
 }
 .sknav {
     text-align: center;
@@ -43,14 +47,16 @@ body {
     background: white;
     border: transparent;
     border-radius: 25px;
-    display: flexbox;
+    
+    align-content: center;
     width: 80%;
     justify-content: center;
     align-content: center;
-    text-align: center;
+    
 }
 .headsk{
     background: white;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .parsk{
@@ -83,6 +89,8 @@ body {
 .headser {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
+    font-weight: bold;
+    font-size: 15px;
     background: transparent;
     background-color: white;
 }
@@ -150,19 +158,11 @@ b {
     border-top-color: rgb(255, 169, 8);
     border: 2px dashed;
 }
-.cont {
+.accordion-body {
     background: transparent;
-    border: none;
-    height: auto;
     background-color: white;
-    padding: 7px;
-    border-radius: 15px;
-    display: flex;
-    text-align: center;
 }
-.cont p {
+.accordion-body strong {
     background: transparent;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+    
 }
