@@ -98,10 +98,13 @@ body {
     background-color: white;
 }
 #itext {
-    padding: 5px;
+    padding: 6px;
     border: black 2px solid;
+    width: 300px;
     border-radius: 10px;
     color: black;
+    font-weight: bold;
+    font-size: 17px;
     background: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
