@@ -103,7 +103,7 @@ body {
     border-radius: 10px;
     color: black;
     background: white;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 button {
